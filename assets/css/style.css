@@ -1,9 +1,9 @@
 .full-background {
     /* Center the content */
-    align-items: center;
+    align-items: start;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 
     /* Take full size */
     height: 100vh;
@@ -11,6 +11,18 @@
 
     /* Background */
     background: url(../img/bg.jpg) center center / cover no-repeat;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.685)
+}
+
+.landing{
+  padding-top: 15%;
+}
+
+.order-page {
+  padding-top: 5%;
 }
 
 .social-icons {
@@ -37,4 +49,8 @@
   }
   .social-icons li a i {
     font-size: 20px;
+  }
+
+  .btn-order {
+    margin-top: 2rem;
   }
