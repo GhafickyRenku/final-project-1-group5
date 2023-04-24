@@ -54,3 +54,8 @@ h5 {
   .btn-order {
     margin-top: 2rem;
   }
+
+  .costum-padding {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
