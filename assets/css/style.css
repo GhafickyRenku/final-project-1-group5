@@ -18,7 +18,9 @@ h5 {
 }
 
 .landing{
-  padding-top: 15%;
+  padding-top: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .order-page {
@@ -58,4 +60,10 @@ h5 {
   .costum-padding {
     padding-top: 5rem;
     padding-bottom: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    .full-background {
+      height: 65vh;
+    }
   }
