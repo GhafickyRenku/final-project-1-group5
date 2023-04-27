@@ -50,7 +50,7 @@
                                 <!-- paket -->
                                 <div class="form-outline mb-4">
                                   <label for="paket">Paket:</label>
-                                  <select class="form-control" id="paket">
+                                  <select class="form-control" id="paket" name="tipe_paket">
                                     <option>Platinum Package</option>
                                     <option>Gold Package</option>
                                     <option>Silver Package</option>
@@ -60,53 +60,51 @@
               
                                 <!-- Nama -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form6Example3">Name of the bride and groom</label>
-                                    <input type="text" id="form6Example3" class="form-control" />
+                                    <label class="form-label" for="nama">Name of the bride and groom</label>
+                                    <input type="text" id="nama" name="nama_pasangan_pengantin" class="form-control" placeholder="e.g Bustamam Riski & Rania "/>
                                 </div>
               
                                 <!-- Alamat -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form6Example4">Address</label>
-                                    <input type="text" id="form6Example4" class="form-control" />
+                                    <label class="form-label" for="address">Address</label>
+                                    <input type="text" id="address" name="alamat_pasangan_pengantin" class="form-control" />
                                 </div>
               
                                 <!-- Email -->
                                 <div class="form-outline mb-4">
-                                     <label class="form-label" for="form6Example5">Email</label>
-                                     <input type="email" id="form6Example5" class="form-control" />
+                                     <label class="form-label" for="mail">Email</label>
+                                     <input type="email" id="mail" name="email_pengantin" class="form-control" />
                                 </div>
               
                                 <!-- nomor hp -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form6Example6">Phone number</label>
-                                    <input type="number" id="form6Example6" class="form-control" />
+                                    <label class="form-label" for="phone">Phone number</label>
+                                    <input type="number" id="phone" name="no_telepon_pengantin" class="form-control" />
                                 </div>
 
                                 <!-- tanggal -->
                                 <div class="form-outline mb-4">
                                     <label for="tanggal">Wedding Date</label>
-                                    <input type="date" class="form-control" id="tanggal">
+                                    <input type="date" id="tanggal" name="tanggal_pernikahan" class="form-control" />
                                 </div>
 
                                 <!-- lokasi pernikahan -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form6Example4">Wedding location</label>
-                                    <input type="text" id="form6Example4" class="form-control" />
+                                    <label class="form-label" for="location">Wedding location</label>
+                                    <input type="text" id="location" name="lokasi_pernikahan" class="form-control" />
                                 </div>
 
                                 <!-- tema dan gaya pernikahan -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form6Example4">Wedding Theme and Style</label>
-                                    <input type="text" id="form6Example4" class="form-control" />
+                                    <label class="form-label" for="theme">Wedding Theme and Style</label>
+                                    <input type="text" id="theme" name="detail_tema" class="form-control" />
                                 </div>
 
                                 <!-- jumlah tamu yang diundang -->
                                 <div class="form-outline mb-4">
-                                  <label for="form6Example4">Number of invited guests</label>
-                                  <input type="number" id="form6Example6" class="form-control" />
+                                  <label for="guest">Number of invited guests</label>
+                                  <input type="number" id="guest" name="jumlah_tamu" class="form-control" />
                                 </div>
-
-                  
               
                                 <!-- Submit button -->
                                 <button type="submit" class="btn btn-success btn-rounded">Place order</button>
