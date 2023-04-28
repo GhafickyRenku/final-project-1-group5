@@ -12,7 +12,7 @@ fetch('https://final-project-api-lugr.onrender.com/order')
             <div class="card-body">
                 <h5 class="card-title text-dark">${order.tipe_paket}</h5>
                 <p class="card-text">${order.nama_pasangan_pengantin}</p>
-                <a href="#" class="btn btn-danger">Cancel</a>
+                <button class="btn btn-danger" onclick="deleteOrder(${order.id})">Cancel</button>
             </div>
             </div>
             `
@@ -20,3 +20,17 @@ fetch('https://final-project-api-lugr.onrender.com/order')
     }
     )
     .catch(error => console.error('Error:', error));   
+
+function deleteOrder(id) {
+    fetch(`https://final-project-api-lugr.onrender.com/order/${id}`, {
+        method: 'DELETE',
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+        location.reload();
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+}
