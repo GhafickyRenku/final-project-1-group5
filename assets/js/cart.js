@@ -12,7 +12,7 @@ fetch('https://final-project-api-lugr.onrender.com/order')
             <div class="card-body">
                 <h5 class="card-title text-dark">${order.tipe_paket}</h5>
                 <p class="card-text">${order.nama_pasangan_pengantin}</p>
-                <button class="btn btn-danger" onclick="deleteOrder(${order.id})">Cancel</button>
+                <button class="btn btn-danger" onclick="deleteOrder(${order.id})">Hapus</button>
             </div>
             </div>
             `
