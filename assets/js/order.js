@@ -14,7 +14,12 @@ form.addEventListener('submit', (e) => {
         },
         body: JSON.stringify(data),
     })
-        .then( alert('Order Anda Berhasil') )
+        .then( Swal.fire({
+            icon: 'success',
+            title: 'Tersimpan',
+            text: 'Hasil Klipping anda telah tersimpan',
+            footer: '<a href="cart.html">Lihat Hasil Klipping Anda</a>'
+          }))
         .catch(error => console.error('Error:', error));
 }
 );

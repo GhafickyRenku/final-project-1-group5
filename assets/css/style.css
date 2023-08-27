@@ -62,11 +62,6 @@ h5 {
     padding-bottom: 2rem;
   }
 
-  @media (max-width: 767px) {
-    .full-background {
-      height: 55vh;
-    }
-  }
 
   html {
     scroll-behavior: smooth;

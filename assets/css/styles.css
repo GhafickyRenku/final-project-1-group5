@@ -9,3 +9,31 @@
     font-size: 86%;
     margin-top: -10px;
 }
+
+.hasil {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .web-nav {
+      height: 100px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .quotes {
+        font-size: 70%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hasil {
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .isiKlipping {
+        justify-content: center;
+    }
+  }

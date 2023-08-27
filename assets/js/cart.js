@@ -10,10 +10,10 @@ fetch('https://final-project-api-lugr.onrender.com/order')
         data.forEach(order => {
             orderCards.innerHTML += `
             <div class="card-body">
-                <h5 class="card-title text-dark">${order.tipe_paket}</h5>
-                <p class="card-text">${order.nama_pasangan_pengantin}</p>
+                <h5 class="card-title text-dark">${order.lokasi_pernikahan}</h5>
+                <p class="card-text">Media <b>${order.tipe_paket}</b> Tanggal <b>${order.tanggal_pernikahan}</b></p>
+                <a class="btn btn-success" href="${order.nama_pasangan_pengantin}" target="_blank">Lihat Berita</a>
                 <button class="btn btn-danger" onclick="deleteOrder(${order.id})">Hapus</button>
-            </div>
             </div>
             `
         });
